@@ -1,0 +1,55 @@
+body {
+    background-color: #595547 ; 
+    font-family: 'Verdana', sans-serif; 
+}
+
+h1 {
+    color: #9fc2f8; 
+    font-size: 36px; 
+    font-weight: bold; 
+    font-family: 'Arial', sans-serif; 
+}
+
+ul {
+    color: white; 
+    font-family: 'Verdana', sans-serif; 
+}
+
+b, strong {
+    color: #FFED60; 
+}
+
+ol {
+    color: white; 
+    font-family: 'Verdana', sans-serif; 
+}
+
+h2 {
+    color: #9fc2f8;
+    font-weight: bold; 
+    font-family: 'Arial', sans-serif; 
+}
+
+p {
+    color: white; 
+    font-family: 'Verdana', serif;
+}
+
+a {
+    color: #FF4E4D; 
+}
+
+a:hover {
+    color: gold; 
+}
+
+ul {
+    color: white; 
+    font-family: 'Verdana', sans-serif; 
+}
+
+img {
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
