@@ -1,83 +1,107 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Discord Themed Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <form>
+        <input type="text" id="todo-input" placeholder="Add a new task..." />
+        <button type="submit" id="add-button">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </body>
+</html>
+
+/* CSS */
+<style>
 body {
-    background-color: #dce0ea;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-  }
-  
-  h1 {
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-  
-  form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-  
-  input[type="text"] {
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    width: 70%;
-    margin-right: 10px;
-  }
-  
-  button[type="submit"] {
-    background-color: #2980b9;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #3498db;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-  }
-  
-  li span {
-    flex-grow: 1;
-    margin-right: 10px;
-  }
-  
-  li button {
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  li button:hover {
-    background-color: #c0392b;
-  }
-  
-  li.completed {
-    background-color: #ecf0f1;
-  }
-  
+  background-color: #36393f;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #2f3136;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  background: #40444b;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+button[type="submit"] {
+  background-color: #5865F2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #4752c4;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #40444b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+li span {
+  flex-grow: 1;
+  color: #ffffff;
+}
+
+li button {
+  background-color: #ed4245;
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li button:hover {
+  background-color: #a33a3a;
+}
+</style>
+
+
