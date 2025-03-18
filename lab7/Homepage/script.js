@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     buttons.forEach((button, index) => {
         button.addEventListener("click", function () {
             
-            window.location.href = `../challengeFile/challenge${index + 1}/index.html`;
+            window.location.href = `../challengeFile/challenge${index + 1}/index.html`; 
         });
     });
 });

@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
+  margin: 0;
+}
+
+
+.gallery {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery h1 {
+  color: black;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.image-row {
+  display: flex; 
+  gap: 20px; 
+  align-items: flex-start;
+}
+
+.main-image {
+  position: relative;
+  width: 400px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+.cunnies {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.cunny {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cunny:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
